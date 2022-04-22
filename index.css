@@ -1,0 +1,276 @@
+
+ul {
+list-style: none;
+font-family: 'Calibri'
+text-align:center;
+}
+
+nav ul {
+display: flex;
+flex-direction: row;
+flex-wrap:nowrap;
+
+justify-content: space-around;
+height: 50px;
+background: rgba(255, 255, 255, 0.78);
+
+box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav li {
+display: flex;
+
+}
+nav ul li a{
+font-family: 'Calibri';
+	text-transform: uppercase;
+
+color: #030303;
+font-style: normal;
+}
+
+
+nav a {
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+font-size: 16px;
+text-decoration: none;
+
+}
+nav a:hover{
+    border: 1px solid #fff;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+nav label {
+    display: none;
+    border: 1px solid #fff;
+    padding: 1px 5px;
+    cursor: pointer;
+    transition: 0.9s;
+}
+nav label:hover{
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+{
+	margin: 0;
+	padding: 0;
+}
+a.button {
+	color: rgba(0, 0, 0, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 10px inset;
+    transition: 1.3s;
+}
+#span{
+	text-transform: uppercase;
+	font-weight:bold;
+	display: none;
+}
+span{
+	text-transform: uppercase;
+	font-weight:bold;
+}
+a.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 120px inset;
+}
+.button {
+  margin-left: 20vw;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2vw 2vw;
+    font-size: 20px;
+		font-family: 'Calibri';
+		margin: 0 auto;
+		margin-top: 34px;
+}
+ footer .company_info {
+width: 260px;
+}
+.logo{
+	animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+		margin-right: auto;
+}
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+.logo2{
+	display: none;
+	animation-name: rotation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+		margin-right: auto;
+}
+@keyframes rotation2 {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+background: rgba(228, 154, 151, 0.13);
+
+}
+.st{
+	background: url(tt.png);background-size: cover;width: 45vw; height: 33vw; margin-right:auto
+}
+.stoc{
+	height: 20px;text-align: center;
+font-size:25px;font-family: 'Calibri'; text-transform: uppercase
+}
+.rectangle2{
+display: flex;
+width: 100%;
+height: 45vw;
+border-radius: 0px;
+background: #F9F9F9;
+justify-content: center;
+ align-content: space-between;
+ align-items: center;
+
+
+}
+.rectangle3{
+display: flex;
+flex-direction: row;
+height: 33vw;
+
+left: 85px;
+
+width: 100%;
+
+border-radius: 0px;
+background: rgba(228, 154, 151, 0.13);
+}
+
+.rectangle4{
+display: flex;
+flex-direction: column;
+min-width: 100%;
+min-height: 80vw;
+max-height: 900vh;
+justify-content: center;
+ align-content: space-between;
+gap: 40px;
+}
+
+.sidenav a{
+	display: none;
+}
+.menu1{
+	display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+	justify-content: center;
+gap: 40px;
+margin-top: 43px;
+
+}
+h5 {
+	display:flex;justify-content:center;font-family: 'Calibri'
+font-style: normal;font-size:3vw; margin-top: 10vw
+}
+
+.menu1 div {
+
+	height: 320px;
+	width: 280px;
+border-radius: 17px;
+
+}
+.menu2{
+	display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+	justify-content: center;
+gap: 90px;
+margin-bottom: 43px;
+
+}
+
+.menu2 div {
+
+	height: 220px;
+	width: 180px;
+
+border-radius: 21px;
+}
+
+
+
+
+footer{
+justify-content: space-around;
+margin-top: 43px;
+max-width: 100%;
+max-height:100%;
+min-height:400px;
+background: #F6EDEC;
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+gap:200px;
+margin-top:20px;
+font-family: 'Calibri';
+font-size: 25px;
+font-style: normal;
+justify-content: center;
+}
+
+.int{
+
+	display:flex;
+flex-direction:row;
+gap: 18px;
+}
+.int div {
+	height: 16vw;
+	width: 23vw;
+}
+.int2{
+	justify-content: center;
+	display:flex;
+flex-wrap: nowrap;
+	width: 100%;
+}
+.int2 div {
+	height: 30vw;
+}
+.rectangle1{
+   display: flex;
+	 	flex-direction:column;
+	 width: 100%;
+	 height: 41vw;
+background: url(шапка.jpg);
+background-size: cover;
+
+}

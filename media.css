@@ -1,0 +1,98 @@
+@media screen and (max-width: 1000px) {
+.rectangle1{
+	height: 50vh;
+}
+
+	footer{
+
+	display: block;
+	flex-direction:column;
+	justify-content: center;
+	font-size: 25px;
+	}
+.company_info{
+	width: 200
+}
+
+footer .company_info{
+display: block;
+}
+.company_info{
+	text-align: left;
+}
+	nav {
+	text-align: left;
+}
+    nav label{
+         display: inline-block;
+    }
+    nav > ul {
+        display: none;
+		/*width: 100px;*/
+		left: 0;
+    }
+	nav li{
+    display: block;
+    vertical-align: top;
+	padding: 2px;
+}
+
+ul li {
+	display: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+		background: rgba(255, 255, 255, 0.78);
+
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+
+    overflow-x: hidden;
+    transition: 2s;
+    padding-top: 60px;
+}
+.rectangle4{
+display: flex;
+flex-direction: column;
+
+align-content: center;
+
+
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+	font-family: 'Calibri';
+		text-align:center;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+
+}
+.rectangle4 .menu1{
+	margin: 0 auto;
+	margin-top: 43px;
+}
+.menu1{
+	display:flex;
+flex-direction:column;
+flex-wrap: wrap;
+	justify-content: center;
+gap: 70px;
+
+}
+.menu1 div {
+height: 650px;
+	width: 430px;
+border-radius: 17px;
+justify-content: center;
+}
+
+
+}
